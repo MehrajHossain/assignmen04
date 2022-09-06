@@ -54,28 +54,32 @@ main {
   width: 50px;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.review .carousel-control-prev-icon,
+.review .carousel-control-next-icon {
   height: 50px;
   width: 50px;
   background-size: 100%, 100%;
   border-radius: 50%;
   border: 1px solid mone;
   background-image: none;
+  background-color: #118fe9;
 
 }
 
-.carousel-control-next-icon:after {
+
+.review .carousel-control-next-icon:after {
   content: '>';
   font-size: 30px;
   color: #fff;
   background-color: #289bde;
 }
 
-.carousel-control-prev-icon:after {
+.review .carousel-control-prev-icon:after {
   content: '<';
   font-size: 30px;
-  color: #289bde;
+  color: #fff;
+  background-color: #289bde;
+  
 }
 
 
