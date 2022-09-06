@@ -7,6 +7,33 @@
   height: 85vh;
 }
 
+
+
+
+section {
+  border-radius: 10px;
+}
+
+main {
+  overflow: hidden;
+}
+
+.explore-elearning {
+  background-color: #f4fafd;
+  border-radius: 10px;
+  
+}
+
+.explore-elearning img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+
 /* Tablet device */
 
 @media only screen and (min-width:688px) and (max-width:992px) {
@@ -29,5 +56,11 @@
   .carousel img {
     height: 50vh;
   }
+  .explore-elearning img {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  
 
 }
