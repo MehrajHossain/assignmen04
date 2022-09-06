@@ -1,7 +1,33 @@
 .carousel-caption {
   top: 35%;
   bottom: auto;
+  
 }
-img {
-  height: 90vh;
+.carousel img {
+  height: 85vh;
+}
+
+/* Tablet device */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+  
+  .carousel img {
+    height: 40vh;
+  }
+
+
+  
+}
+
+/* Mobile device */
+@media only screen and (max-width:688px) {
+  .carousel-caption {
+    top: 12%;
+    bottom: auto;
+  }
+
+  .carousel img {
+    height: 50vh;
+  }
+
 }
